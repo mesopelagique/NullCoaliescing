@@ -1,0 +1,32 @@
+stages:
+  - build
+  - cpd
+  - cleanup
+
+build_job:
+  stage: build
+  script:
+    - echo "build"
+    - 4dcompiler "$CI_PROJECT_DIR/Project/$CI_PROJECT_NAME.4DProject" "build"
+    - export CI_PROJECT_NAME_LC=$(echo "$CI_PROJECT_NAME" | tr '[:upper:]' '[:lower:]')
+  artifacts:
+    paths:
+    - "build/release/$CI_PROJECT_NAME_LC.4dbase"
+
+cpd_job:
+  stage: cpd
+  script:
+    - echo "cpd"
+    - cpd --failOnViolation false --minimum-tokens 50 --files "$CI_PROJECT_DIR/Project/Sources" --language "4dm" --format xml > "$CI_PROJECT_DIR/cpd.xml"
+  artifacts:
+    reports:
+      codequality: "$CI_PROJECT_DIR/cpd.xml"
+
+cleanup_job:
+  stage: cleanup
+  script:
+    - echo "clean"
+    - 4dcompiler "$CI_PROJECT_DIR/Project/$CI_PROJECT_NAME.4DProject" "clean"
+  when: always
+  
+  
