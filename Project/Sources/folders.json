@@ -1,0 +1,9 @@
+﻿{
+	"test": {
+		"methods": [
+			"test_COALESCE",
+			"test_NVL"
+		]
+	},
+	"trash": {}
+}
