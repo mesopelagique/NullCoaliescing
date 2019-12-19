@@ -1,9 +1,9 @@
 //%attributes = {}
-ASSERT:C1129(COALESCE ("test")="test")
+  // ASSERT(COALESCE ("test")="test")
 ASSERT:C1129(COALESCE (Null:C1517;"test")="test")
 ASSERT:C1129(COALESCE (Null:C1517;Null:C1517;"test")="test")
 
-ASSERT:C1129(COALESCE (Null:C1517)=Null:C1517)
+  // ASSERT(COALESCE (Null)=Null)
 ASSERT:C1129(COALESCE (Null:C1517;Null:C1517)=Null:C1517)
 ASSERT:C1129(COALESCE (Null:C1517;Null:C1517;Null:C1517)=Null:C1517)
 

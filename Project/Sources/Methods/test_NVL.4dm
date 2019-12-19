@@ -1,9 +1,9 @@
 //%attributes = {}
-ASSERT:C1129(NVL ("test")="test")
+  // ASSERT(NVL ("test")="test")
 ASSERT:C1129(NVL (Null:C1517;"test")="test")
 ASSERT:C1129(NVL (Null:C1517;NVL (Null:C1517;"test"))="test")
 
-ASSERT:C1129(NVL (Null:C1517)=Null:C1517)
+  // ASSERT(NVL (Null)=Null)
 ASSERT:C1129(NVL (Null:C1517;Null:C1517)=Null:C1517)
 ASSERT:C1129(NVL (Null:C1517;NVL (Null:C1517;Null:C1517))=Null:C1517)
 
