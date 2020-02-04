@@ -5,7 +5,7 @@
 https://en.wikipedia.org/wiki/Null_coalescing_operator
 
 
-[NVL](Project/Sources/Methods/NVL.4dm) ( [test_NVL](Project/Sources/Methods/test_NVL.4dm) )
+[NVL](Documentation/Methods/NVL.4dm)
 
 ```4d
 C_VARIANT($value;$Obj;$NullObject)
@@ -24,7 +24,7 @@ End for each
 
 ```
 
-[COALESCE](Project/Sources/Methods/COALESCE.4dm) ( [test_COALESCE](Project/Sources/Methods/test_COALESCE.4dm) )
+[COALESCE](Documentation/Methods/COALESCE.4dm)
 
 ```4d
 C_VARIANT($value;$Obj)
