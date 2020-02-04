@@ -30,7 +30,7 @@ End for each
 
 ```
 
-💡 For more than one parameter you can use [COALESCE](COALESCE)
+💡 For more than one parameter you can use [COALESCE](COALESCE.md)
 
 ### Explanation
 

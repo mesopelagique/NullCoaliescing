@@ -20,7 +20,7 @@ End for each
 
 ```
 
-💡 For only one possible `NULL` parameter you can use [NVL](NLV)
+💡 For only one possible `NULL` parameter you can use [NVL](NLV.md)
 
 ### Test
 
