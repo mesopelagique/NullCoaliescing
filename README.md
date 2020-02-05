@@ -2,7 +2,7 @@
 
 # Null coalescing operator
 
-[Null coalescing](https://en.wikipedia.org/wiki/Null_coalescing_operator) using 4D
+[Null coalescing](https://en.wikipedia.org/wiki/Null_coalescing_operator) using 4D ?:)
 
 [NVL](Documentation/Methods/NVL.md)
 
