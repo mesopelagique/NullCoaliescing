@@ -4,7 +4,9 @@
 
 [Null coalescing](https://en.wikipedia.org/wiki/Null_coalescing_operator) using 4D ?:)
 
-[NVL](Documentation/Methods/NVL.md)
+## [NVL](Documentation/Methods/NVL.md)
+
+Defined a default value if `NULL`
 
 ```4d
 C_VARIANT($value;$Obj;$NullObject)
@@ -23,7 +25,9 @@ End for each
 
 ```
 
-[COALESCE](Documentation/Methods/COALESCE.md)
+## [COALESCE](Documentation/Methods/COALESCE.md)
+
+Same as `NVL` but with more than one possible `NULL` element.
 
 ```4d
 C_VARIANT($value;$Obj)
@@ -32,6 +36,19 @@ For each ($value;COALESCE ($Obj.collection1;$Obj.collection3;New collection))
 	// do something
 End for each 
 
+```
+
+## [NVF](Documentation/Methods/NVF.md)
+
+Checking if `NULL` before applying any formula.
+
+
+```4d
+If (NVF ($collection;Formula($1.length>2)))
+	For each ($element;$collection)
+
+	End for each
+End if
 ```
 
 ---
