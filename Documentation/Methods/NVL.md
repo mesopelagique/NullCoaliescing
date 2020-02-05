@@ -40,7 +40,7 @@ It's just a simple wrapper on `Choose` method.
 $0:=Choose($1=Null;$2;$1)
 ```
 
-see [NVL](../../Project/Sources/Methods/NVL.4dm)
+see [NVL](../../Project/Sources/Methods/NVL.4dm#L13)
 
 ### Test
 
