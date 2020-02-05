@@ -1,9 +1,10 @@
-![language](https://img.shields.io/static/v1?label=language&message=4d&color=blue)
+[![language](https://img.shields.io/static/v1?label=language&message=4d&color=blue)](https://developer.4d.com/)
 
 # Null coalescing operator
 
-https://en.wikipedia.org/wiki/Null_coalescing_operator
+Null coalescing using 4D
 
+https://en.wikipedia.org/wiki/Null_coalescing_operator
 
 [NVL](Documentation/Methods/NVL.md)
 
@@ -34,5 +35,7 @@ For each ($value;COALESCE ($Obj.collection1;$Obj.collection3;New collection))
 End for each 
 
 ```
+
+---
 
 ![Elvis](https://res.cloudinary.com/practicaldev/image/fetch/s--fUx8DazI--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/6j3wmn15zj3vp3qyfctv.jpg)
