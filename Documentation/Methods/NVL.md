@@ -3,9 +3,7 @@
 
 Allow to return the first element if non `NULL` otherwise the second.
 
-https://en.wikipedia.org/wiki/Null_coalescing_operator
-
-Inspired from `NVL` SQL function.
+Inspired from [`NVL` SQL function](https://en.wikipedia.org/wiki/Null_coalescing_operator#SQL).
 
 
 ### Usage
