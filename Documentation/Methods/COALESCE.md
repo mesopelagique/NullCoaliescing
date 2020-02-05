@@ -3,9 +3,7 @@
 
 Allow to return the first non `NULL` element.
 
-https://en.wikipedia.org/wiki/Null_coalescing_operator
-
-Inspired from `COALESCE` SQL function.
+Inspired from [`COALESCE` SQL function](https://en.wikipedia.org/wiki/Null_coalescing_operator#SQL).
 
 ### Usage
 
