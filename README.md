@@ -56,8 +56,9 @@ End if
 Get the first defined value from an object.
 
 ```4d
-$obj:=New object("a"; New object("b";"d"))
+$obj:=New object("a"; New object("b";"d");"dot.dot"; 5)
 $value:=PATH_COALESCE($obj;New collection("a.z";"d";"a.b";"dot.dot");$defaultValue)
+// Will return "d" because "a.b" is the first 'correct' path
 ```
 
 ---
