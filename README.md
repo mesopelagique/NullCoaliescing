@@ -57,7 +57,7 @@ Get the first defined value from an object.
 
 ```4d
 $obj:=New object("a"; New object("b";"d"))
-PATH_COALESCE($obj;New collection("a.z";"d";"a.b";"dot.dot");$defaultValue)
+$value:=PATH_COALESCE($obj;New collection("a.z";"d";"a.b";"dot.dot");$defaultValue)
 ```
 
 ---
