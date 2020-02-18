@@ -1,8 +1,10 @@
 ﻿{
 	"test": {
 		"methods": [
+			"stringify",
 			"test_COALESCE",
-			"test_NVL"
+			"test_NVL",
+			"test_PATH_COALESCE"
 		]
 	},
 	"trash": {}

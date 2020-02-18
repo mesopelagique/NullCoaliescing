@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"preemptive":"capable"}
   // https://en.wikipedia.org/wiki/Null_coalescing_operator
 C_VARIANT:C1683($0)  // formula result if first element not null not null otherwise value_if_null
 C_VARIANT:C1683($1)  // possible null to check
