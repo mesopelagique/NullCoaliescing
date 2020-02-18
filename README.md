@@ -2,9 +2,7 @@
 [![language](https://img.shields.io/github/languages/top/mesopelagique/NullCoaliescingOperator.svg)](https://developer.4d.com/)
 ![code-size](https://img.shields.io/github/languages/code-size/mesopelagique/NullCoaliescingOperator.svg)
 
-# Null coalescing operator
-
-[Null coalescing](https://en.wikipedia.org/wiki/Null_coalescing_operator) using 4D ?:)
+# [Null coalescing](https://en.wikipedia.org/wiki/Null_coalescing_operator) using 4D ?:)
 
 ## [NVL](Documentation/Methods/NVL.md)
 
@@ -51,6 +49,15 @@ If (NVF ($collection;Formula($1.length>2)))
 
 	End for each
 End if
+```
+
+## [PATH_COALESCE](Documentation/Methods/PATH_COALESCE.md)
+
+Get the first defined value from an object.
+
+```4d
+$obj:=New object("a"; New object("b";"d"))
+PATH_COALESCE($obj;New collection("a.z";"d";"a.b";"dot.dot");$defaultValue)
 ```
 
 ---
