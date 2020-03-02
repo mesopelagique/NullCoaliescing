@@ -1,4 +1,4 @@
-//%attributes = {"preemptive":"capable"}
+//%attributes = {"shared":true,"preemptive":"capable"}
   // https://en.wikipedia.org/wiki/Null_coalescing_operator
 C_VARIANT:C1683($0)  // possibly_null_value if not null otherwise value_if_null
 C_VARIANT:C1683($1)  // possibly_null_value

@@ -1,4 +1,4 @@
-//%attributes = {"preemptive":"capable"}
+//%attributes = {"shared":true,"preemptive":"capable"}
   // https://en.wikipedia.org/wiki/Null_coalescing_operator
 C_VARIANT:C1683($0)
 C_VARIANT:C1683(${1})

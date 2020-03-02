@@ -1,4 +1,4 @@
-//%attributes = {"preemptive":"capable"}
+//%attributes = {"shared":true,"preemptive":"capable"}
 C_OBJECT:C1216($1;$obj)
 C_VARIANT:C1683($2)
 C_VARIANT:C1683($3;$default)
