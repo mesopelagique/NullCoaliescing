@@ -1,6 +1,7 @@
 [![language](https://img.shields.io/static/v1?label=language&message=4d&color=blue)](https://developer.4d.com/)
 [![language](https://img.shields.io/github/languages/top/mesopelagique/NullCoaliescingOperator.svg)](https://developer.4d.com/)
 ![code-size](https://img.shields.io/github/languages/code-size/mesopelagique/NullCoaliescingOperator.svg)
+[![discord][discord-shield]][discord-url]
 
 # [Null coalescing](https://en.wikipedia.org/wiki/Null_coalescing_operator) using 4D ?:)
 
@@ -64,3 +65,7 @@ $value:=PATH_COALESCE($obj;New collection("a.z";"d";"a.b";"dot.dot");$defaultVal
 ---
 
 ![Elvis](https://res.cloudinary.com/practicaldev/image/fetch/s--fUx8DazI--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/6j3wmn15zj3vp3qyfctv.jpg)
+
+
+[discord-shield]: https://img.shields.io/badge/chat-discord-7289DA?logo=discord&style=flat
+[discord-url]: https://discord.gg/dVTqZHr
