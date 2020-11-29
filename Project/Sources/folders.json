@@ -3,6 +3,7 @@
 		"methods": [
 			"stringify",
 			"test_COALESCE",
+			"test_NVF",
 			"test_NVL",
 			"test_PATH_COALESCE"
 		]

@@ -16,7 +16,6 @@ $Obj:=New object()
 $value:=NVL($NullObject;$Obj) // $value eq. $Obj (same as Choose($NullObject=Null;$Obj;$NullObject) )
 ```
 
-
 ```4d
 C_VARIANT($value;$Obj)
 $Obj:=New object()
@@ -60,6 +59,25 @@ Get the first defined value from an object.
 $obj:=New object("a"; New object("b";"d");"dot.dot"; 5)
 $value:=PATH_COALESCE($obj;New collection("a.z";"d";"a.b";"dot.dot");$defaultValue)
 // Will return "d" because "a.b" is the first 'correct' path
+```
+
+---
+
+## GetValueOrDefault
+
+Alternative to Null Coalescing, in case you want to provide the default value for the data type,
+you can use `Bool`, `Int`, `String` or for any data type `GetValueOrDefault`
+
+```4d
+If(Bool($Obj.success))
+	// do something d
+End if
+```
+
+```4d
+For each ($value;GetValueOrDefault($Obj.collection1))
+	// do something
+End for each
 ```
 
 ---
