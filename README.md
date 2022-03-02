@@ -5,6 +5,9 @@
 
 # [Null coalescing](https://en.wikipedia.org/wiki/Null_coalescing_operator) using 4D ?:)
 
+ARCHIVED: now 4D support short circuit with JS style https://blog.4d.com/4d-language-improvements/
+
+
 ## [NVL](Documentation/Methods/NVL.md)
 
 Defined a default value if `NULL`
